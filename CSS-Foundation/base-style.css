@@ -114,6 +114,35 @@ img {
     font-weight: 700;
 }
 
+.page-content button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 4px 24px;
+    width: auto;
+}
+
+.page-content button:hover{
+    background-color: #225ab4;
+    cursor: pointer;
+}
+
+.page-content .about{
+    display: flex;
+    padding: 120px;
+    background-color: #3882F6;
+    margin: 64px;
+    color: white;
+    flex-direction: row;
+}
+
+.page-content .about .singup-box{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
 .footer{
     display: flex;
     justify-content: center;
